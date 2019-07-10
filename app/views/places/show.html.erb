@@ -131,6 +131,10 @@
       <blockquote>
         
         <%= photo.caption %>
+        <%= f.input :picture %>
+        <div class="col-12 col-sm-4">
+      <%= image_tag photo.picture.url, class: 'img-fluid' %>
+    </div>
         <small><%= photo.user.email %></small>
       </blockquote>
     </div>
