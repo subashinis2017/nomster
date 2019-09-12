@@ -69,10 +69,10 @@ gem 'bootstrap', '>= 4.3.1'
 gem 'simple_form'
 gem 'font-awesome-rails'
 gem "devise", ">= 4.7.1"
+gem "nokogiri", ">= 1.10.4"
 gem 'geocoder'
-gem 'figaro'
-gem 'carrierwave', '~> 1.0'
-gem 'fog-aws', '~> 3.5', '>= 3.5.1'
+gem 'figaro', '~> 1.1', '>= 1.1.1'
+gem 'carrierwave-aws', '~> 1.3.0'
 
 source 'https://rails-assets.org' do
   gem 'rails-assets-tether', '>= 1.3.3'
