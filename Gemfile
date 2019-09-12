@@ -68,7 +68,7 @@ gem 'popper_js', '>= 1.14.3', '< 2'
 gem 'bootstrap', '>= 4.3.1'
 gem 'simple_form'
 gem 'font-awesome-rails'
-gem 'devise'
+gem "devise", ">= 4.7.1"
 gem 'geocoder'
 gem 'figaro'
 gem 'carrierwave', '~> 1.0'
